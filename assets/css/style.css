@@ -982,6 +982,14 @@ main {
   object-position: center;
 }
 
+.project-card-img-contain {
+  background: var(--white-2);
+}
+
+.project-card-img-contain img {
+  object-fit: contain;
+}
+
 .project-card-content { padding: 24px; }
 
 .project-title {
