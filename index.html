@@ -712,222 +712,100 @@
 
         <section class="projects">
 
-          <ul class="filter-list">
-
-            <li class="filter-item">
-              <button class="active" data-filter-btn>All</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>Web design</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>Applications</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>Web development</button>
-            </li>
-
-          </ul>
-
-          <div class="filter-select-box">
-
-            <button class="filter-select" data-select>
-
-              <div class="select-value" data-selecct-value>Select category</div>
-
-              <div class="select-icon">
-                <ion-icon name="chevron-down"></ion-icon>
-              </div>
-
-            </button>
-
-            <ul class="select-list">
-
-              <li class="select-item">
-                <button data-select-item>All</button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item>Web design</button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item>Applications</button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item>Web development</button>
-              </li>
-
-            </ul>
-
-          </div>
-
           <ul class="project-list">
 
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-1.jpg" alt="finance" loading="lazy">
+            <li class="project-item">
+              <article class="project-card">
+                <figure class="project-card-img">
+                  <img src="./assets/images/recam.png" alt="Recam preview">
                 </figure>
 
-                <h3 class="project-title">Finance</h3>
+                <div class="project-card-content">
+                  <h3 class="project-title">Recam</h3>
 
-                <p class="project-category">Web development</p>
+                  <p class="project-description">
+                    Recam is a platform designed to streamline collaboration between real estate agents and 
+                    photography companies. The system allows photography companies to create property listing cases, 
+                    upload images and videos, and assign them to agents for review. It helps automate media sharing 
+                    and centralizes communication for property marketing.
+                  </p>
 
-              </a>
+                  <ul class="project-tech-list" aria-label="Technologies used">
+                    <li>ASP.NET Core Web API</li>
+                    <li>React</li>
+                    <li>Tailwind CSS</li>
+                    <li>SQL Server</li>
+                    <li>MongoDB</li>
+                    <li>GitHub Actions CI/CD</li>
+                    <li>Azure</li>
+                  </ul>
+
+                  <div class="project-actions">
+                    <a href="https://delightful-tree-04fc91000.4.azurestaticapps.net/" class="project-action">Live Demo</a>
+                    <a href="https://github.com/flying-cmd/Recam" class="project-action">View Code</a>
+                  </div>
+                </div>
+              </article>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-2.png" alt="orizon" loading="lazy">
+            <li class="project-item">
+              <article class="project-card">
+                <figure class="project-card-img">
+                  <img src="./assets/images/entopiaperfumes.png" alt="eutopia perfumes preview">
                 </figure>
 
-                <h3 class="project-title">Orizon</h3>
+                <div class="project-card-content">
+                  <h3 class="project-title">Eutopia Perfumes</h3>
 
-                <p class="project-category">Web development</p>
+                  <p class="project-description">
+                    A e-commerce platform for selling perfumes online, featuring product browsing, order management, 
+                    and secure user interactions. A full-stack e-commerce platform for selling perfumes online, 
+                    featuring product browsing, order management, and secure user interactions. 
+                    Built to provide a smooth shopping experience while supporting efficient store and content management.
+                  </p>
 
-              </a>
+                  <ul class="project-tech-list" aria-label="Technologies used">
+                    <li>Next.js</li>
+                    <li>Tailwind CSS</li>
+                    <li>Node.js</li>
+                    <li>Sanity.io CMS</li>
+                  </ul>
+
+                  <div class="project-actions">
+                    <a href="https://eutopiaperfumes.com.au/" class="project-action">Live Demo</a>
+                  </div>
+                </div>
+              </article>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="web design">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-3.jpg" alt="fundo" loading="lazy">
+            <li class="project-item">
+              <article class="project-card">
+                <figure class="project-card-img">
+                  <img src="./assets/images/irregular TS.png" object-fit="contain" alt="irregular ts preview">
                 </figure>
 
-                <h3 class="project-title">Fundo</h3>
+                <div class="project-card-content">
+                  <h3 class="project-title">Rethinking Large Language Models For Irregular Time Series Classification In Critical Care</h3>
 
-                <p class="project-category">Web design</p>
+                  <p class="project-description">
+                    Researched LLM-based modeling for irregular ICU time series and showed that irregularity-aware encoder 
+                    design is the key driver of performance, while current LLM integration brings high computational cost 
+                    with limited gains. This work was published at ICASSP 2026.
+                  </p>
 
-              </a>
-            </li>
+                  <ul class="project-tech-list" aria-label="Technologies used">
+                    <li>Python</li>
+                    <li>PyTorch</li>
+                    <li>Transformer</li>
+                    <li>LLM</li>
+                  </ul>
 
-            <li class="project-item  active" data-filter-item data-category="applications">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
+                  <div class="project-actions">
+                    <a href="https://arxiv.org/abs/2601.16516" class="project-action">Paper</a>
+                    <a href="https://github.com/mHealthUnimelb/LLMTS" class="project-action">View Code</a>
                   </div>
-
-                  <img src="./assets/images/project-4.png" alt="brawlhalla" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Brawlhalla</h3>
-
-                <p class="project-category">Applications</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web design">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-5.png" alt="dsm." loading="lazy">
-                </figure>
-
-                <h3 class="project-title">DSM.</h3>
-
-                <p class="project-category">Web design</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web design">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-6.png" alt="metaspark" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">MetaSpark</h3>
-
-                <p class="project-category">Web design</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-7.png" alt="summary" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Summary</h3>
-
-                <p class="project-category">Web development</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="applications">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-8.jpg" alt="task manager" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Task Manager</h3>
-
-                <p class="project-category">Applications</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-9.png" alt="arrival" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Arrival</h3>
-
-                <p class="project-category">Web development</p>
-
-              </a>
+                </div>
+              </article>
             </li>
 
           </ul>
